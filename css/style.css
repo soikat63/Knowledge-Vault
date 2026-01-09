@@ -9,6 +9,11 @@
     justify-content: center;
     align-items: center;
 }
+.flex-justify-between{
+    display: flex;
+    justify-content: space-between;
+   
+}
 
 body{
     font-family: Inter;
@@ -66,6 +71,7 @@ a{
     font-family: Inter;
     transition: all 0.3s ease;
     border: 1px solid transparent;
+    cursor: pointer;
 
 }
 
@@ -334,3 +340,53 @@ h3{
     box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15);
 }
 /* thinking- end */
+
+/* Footer start */
+ #footer-section{
+    padding: 130px 0 30px;
+    background: #001931;
+ }
+
+ 
+
+ .social-text{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #fff;
+ }
+
+ .social-icon{
+    display: flex;
+    gap: 16px;
+    margin-top: 40px;
+ }
+
+ .social-item{
+    width: 24px;
+    height: 24px;
+    padding: 4px ;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ }
+
+ .divider{
+    width: 100%;
+    height: 1px;
+    background: hsla(220, 13%, 91%, 0.20);
+    margin: 80px 0 30px;
+ }
+
+ .copyright{
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    line-height: 24px;
+ }
+
+/* Footer end */
